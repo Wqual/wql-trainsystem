@@ -95,7 +95,7 @@ Citizen.CreateThread(function()
                             {label = "🚇 FERMATA 11 (FUORI CITTA')", value = "11"},
                         }},
                     })
-                    if exports.ox_inventory:Search("count", "ticket") <= 1 then ESX.ShowNotification('Non possiedi un ticket per poter prendere un treno!') return end
+                    if exports.ox_inventory:Search("count", "ticket") < 1 then ESX.ShowNotification('Non possiedi un ticket per poter prendere un treno!') return end
                     if input then
                         ESX.ShowNotification('Stai per dirigerti alla fermata '..input[1])
                         if lib.progressBar({

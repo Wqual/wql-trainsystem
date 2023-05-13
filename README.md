@@ -13,7 +13,7 @@ Dependencies:
 	["ticket"] = {
 		label = "Ticket",
 		weight = 1,
-    degrade = 30,
+                degrade = 30,
 		stack = true,
 		close = true,
 		description = 'Biglietto treno',

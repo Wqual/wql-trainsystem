@@ -19,7 +19,7 @@
 ![4](https://github.com/Wqual/wql-trainsystem/assets/130603719/d6adcb08-44c1-46d2-a769-e8c0bfb0456a)
 ![5](https://github.com/Wqual/wql-trainsystem/assets/130603719/028ba29b-2bf0-44e2-9b35-25705fc9ecd6)
 
-**Instalation:**
+**Installation:**
 
 > ox_inventory/data/items.lua
 ```lua
